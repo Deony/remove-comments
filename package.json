@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "remove-comments-nodejs-mocha-test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

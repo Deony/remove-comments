@@ -1,4 +1,4 @@
-function test4() {
+function fileWithoutComments() {
 	
 	
 	console.log("Hello world");

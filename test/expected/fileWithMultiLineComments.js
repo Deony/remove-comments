@@ -1,18 +1,14 @@
-function test2() {
+function fileWithMultiLineComments() {
 	
 	console.log("Hello world");
 	
-	/* some trash
 	
-	console.log("Hello 2");*/
 	console.log("hello 3");
 	
 	
-	/* some trash 2
 	
-	console.log("Hello 4");*/
 	
-	console./*some text*/log("hello 5");
+	console.log("hello 5");
 	
 	
 	console.log("hello 6");

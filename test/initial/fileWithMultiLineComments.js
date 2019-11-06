@@ -1,4 +1,4 @@
-function test3() {
+function fileWithMultiLineComments() {
 	
 	console.log("Hello world");
 	
@@ -12,12 +12,12 @@ function test3() {
 	
 	console.log("Hello 4");*/
 	
-	console/*some comment*/.log("hello 5")
+	console./*some text*/log("hello 5");
 	
-	// trash 3
+	
 	console.log("hello 6");
-	// trash 4
 	console.log("hello 7");
+	console.log("hello 8");
 	
 	
 }

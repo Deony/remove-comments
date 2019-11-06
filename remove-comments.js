@@ -1,13 +1,15 @@
 function removeComments(str) {
 	function removeSingleLineComments(str) {
-		let reg = /\/\/.*\n/g;
-		let result = str.replace(reg, '\n');
+		let reg = /\/\/.*(?=\r\n|\n)/g,
+			result = str.replace(reg, '');
+
 		return removeMultiLineComments(result);
 	}
 	
 	function removeMultiLineComments(str) {
 		let reg = /\/\*[^*]*\*\//g,
 			result = str.replace(reg, '');
+		
 		return result;
 	}
 	

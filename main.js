@@ -1,7 +1,7 @@
 import removeComments from "./remove-comments.js";
 
 
-const fileWithSingleLineComments = 'function test1() {\n' +
+const fileWithSingleLineComments = 'function fileWithSingleLineComments() {\n' +
 	'\t\n' +
 	'\tconsole.log("Hello world");\n' +
 	'\t\n' +
@@ -12,7 +12,7 @@ const fileWithSingleLineComments = 'function test1() {\n' +
 	'\t\n' +
 	'}';
 
-const fileWithMultiLineComments = 'function test2() {\n' +
+const fileWithMultiLineComments = 'function fileWithMultiLineComments() {\n' +
 	'\t\n' +
 	'\tconsole.log("Hello world");\n' +
 	'\t\n' +
@@ -36,7 +36,7 @@ const fileWithMultiLineComments = 'function test2() {\n' +
 	'\t\n' +
 	'}';
 
-const fileWithSingleAndMultiLineComments = 'function test3() {\n' +
+const fileWithSingleAndMultiLineComments = 'function fileWithSingleAndMultiComments() {\n' +
 	'\t\n' +
 	'\tconsole.log("Hello world");\n' +
 	'\t\n' +
@@ -60,7 +60,7 @@ const fileWithSingleAndMultiLineComments = 'function test3() {\n' +
 	'\t\n' +
 	'}';
 
-const fileWithoutComments = 'function test4() {\n' +
+const fileWithoutComments = 'function fileWithoutComments() {\n' +
 	'\t\n' +
 	'\t\n' +
 	'\tconsole.log("Hello world");\n' +
